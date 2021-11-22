@@ -121,3 +121,11 @@ puma (5.5.2) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
 puma (5.5.2) lib/puma/request.rb:76:in `handle_request'
 puma (5.5.2) lib/puma/server.rb:447:in `process_client'
 puma (5.5.2) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/" for ::1 at 2021-11-22 15:26:53 -0800
+  [1m[35m (5.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/jingtaozhang/.rvm/gems/ruby-3.0.2/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/jingtaozhang/.rvm/gems/ruby-3.0.2/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 9.1ms | Allocations: 599)
+Completed 200 OK in 36ms (Views: 17.2ms | ActiveRecord: 0.0ms | Allocations: 4767)
+
+
