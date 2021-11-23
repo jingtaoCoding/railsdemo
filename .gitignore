@@ -2,8 +2,9 @@
 /.bundle
 
 # log and temp files
-/log/*
-/tmp/*
+log/*
+tmp/*
+log/development.log
 
 # local bundle 
 /vendor/*

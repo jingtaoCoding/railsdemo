@@ -18,6 +18,11 @@
   -- install version 
 - rails -v 
   -- check  the rails version 
+- ruby --version
+- sqlite3 --version
+- node --version
+- yarn --version
+- rails --version 
 
 # Rails 
 - rails new demoapp
@@ -26,8 +31,11 @@
   -- install all related pacakges 
 - bundle update 
 - rails server
+  - -- to start the server, and you can check on http://localhost:3000.
+  - "ctrl + C" to terminate the server!
 - rails console 
 - rails test 
+- [rails](docs/rails.md)
 
 # Ruby Basic 
 - puts "hello world" 
