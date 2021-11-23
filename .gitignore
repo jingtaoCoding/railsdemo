@@ -1,2 +1,12 @@
-log/*
-tmp/*
+# ignore bundle config
+/.bundle
+
+# log and temp files
+/log/*
+/tmp/*
+
+# local bundle 
+/vendor/*
+!/vendor/assets
+
+
