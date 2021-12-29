@@ -36,6 +36,12 @@
 - rails console 
 - rails test 
 - [rails](docs/rails.md)
+- rails routes
+  - -- list existing routes 
+- rails routes --expanded
+  - --expanded option to turn on the expanded table formatting mode. 
+- rails
+  - -- list all the rails commmands 
 
 # Ruby Basic 
 - puts "hello world" 

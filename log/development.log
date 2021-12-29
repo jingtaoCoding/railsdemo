@@ -146,3 +146,2001 @@ Processing by Rails::WelcomeController#index as HTML
 Completed 200 OK in 33ms (Views: 17.8ms | ActiveRecord: 0.0ms | Allocations: 4769)
 
 
+Started GET "/articles" for ::1 at 2021-11-22 16:55:00 -0800
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+ActionController::RoutingError (uninitialized constant Articles
+Did you mean?  ArticlesHelper):
+  
+Started GET "/articles/index" for ::1 at 2021-11-22 16:55:12 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/articles/index"):
+  
+Started GET "/articles" for ::1 at 2021-11-22 16:55:37 -0800
+  
+ActionController::RoutingError (uninitialized constant Articles
+Did you mean?  ArticlesHelper):
+  
+Started GET "/articles" for ::1 at 2021-11-22 16:56:36 -0800
+  
+ActionController::RoutingError (uninitialized constant Articles
+Did you mean?  ArticlesHelper):
+  
+Started GET "/articles" for ::1 at 2021-11-22 16:56:40 -0800
+  
+ActionController::RoutingError (uninitialized constant Articles
+Did you mean?  ArticlesHelper):
+  
+Started GET "/articles" for ::1 at 2021-11-22 16:57:58 -0800
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+ActionController::RoutingError (uninitialized constant Articles
+Did you mean?  ArticlesHelper):
+  
+Started GET "/articles" for ::1 at 2021-11-22 16:58:08 -0800
+  
+ActionController::RoutingError (uninitialized constant Articles
+Did you mean?  ArticlesHelper):
+  
+Started GET "/articles" for ::1 at 2021-11-22 16:58:58 -0800
+  
+ActionController::RoutingError (uninitialized constant Articles
+Did you mean?  ArticlesHelper):
+  
+Started GET "/articles" for ::1 at 2021-11-22 16:59:44 -0800
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+ActionController::RoutingError (uninitialized constant Articles
+Did you mean?  ArticlesHelper):
+  
+Started GET "/" for ::1 at 2021-11-22 16:59:51 -0800
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 146)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/jackyfly/codes/railsdemso/public/packs
+[Webpacker] Hash: e2f281de3ea1fdc4fa5a
+Version: webpack 4.46.0
+Time: 1662ms
+Built at: 11/22/2021 4:59:56 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-be412d64645010827f4e.js    125 KiB  application  [emitted] [immutable]  application
+js/application-be412d64645010827f4e.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-be412d64645010827f4e.js js/application-be412d64645010827f4e.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 5115.5ms | Allocations: 15240)
+Completed 200 OK in 5128ms (Views: 5120.5ms | ActiveRecord: 0.0ms | Allocations: 17833)
+
+
+Started GET "/articles" for ::1 at 2021-11-22 17:00:05 -0800
+  
+ActionController::RoutingError (uninitialized constant Articles
+Did you mean?  ArticlesHelper):
+  
+Started GET "/" for ::1 at 2021-11-22 17:00:19 -0800
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 56)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 17.5ms | Allocations: 3669)
+Completed 200 OK in 20ms (Views: 18.8ms | Allocations: 4445)
+
+
+Started GET "/articles" for ::1 at 2021-11-22 17:00:41 -0800
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 56)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 23.1ms | Allocations: 3682)
+Completed 200 OK in 25ms (Views: 24.5ms | Allocations: 4457)
+
+
+Started GET "/articles" for ::1 at 2021-11-22 17:01:06 -0800
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 142)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 18.3ms | Allocations: 3940)
+Completed 200 OK in 30ms (Views: 26.0ms | Allocations: 5343)
+
+
+Started GET "/articles" for ::1 at 2021-11-22 17:01:11 -0800
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 56)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 13.6ms | Allocations: 3668)
+Completed 200 OK in 16ms (Views: 15.1ms | Allocations: 4442)
+
+
+Started GET "/" for ::1 at 2021-11-22 17:01:16 -0800
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/jackyfly/.rvm/gems/ruby-3.0.2/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/jackyfly/.rvm/gems/ruby-3.0.2/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 18.7ms | Allocations: 269)
+Completed 200 OK in 24ms (Views: 21.0ms | Allocations: 1341)
+
+
+Started GET "/" for ::1 at 2021-11-22 17:01:29 -0800
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 141)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 14.0ms | Allocations: 3947)
+Completed 200 OK in 20ms (Views: 17.6ms | Allocations: 5409)
+
+
+Started GET "/" for ::1 at 2021-11-22 17:02:20 -0800
+Processing by ArticlesController#root as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 56)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 12.8ms | Allocations: 3640)
+Completed 200 OK in 15ms (Views: 13.9ms | Allocations: 4391)
+
+
+Started GET "/" for ::1 at 2021-11-22 17:03:07 -0800
+Processing by ArticlesController#root as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/root.html.erb within layouts/application
+  Rendered articles/root.html.erb within layouts/application (Duration: 0.6ms | Allocations: 149)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 16.4ms | Allocations: 3935)
+Completed 200 OK in 21ms (Views: 19.4ms | Allocations: 5399)
+
+
+Started GET "/" for ::1 at 2021-11-22 17:03:34 -0800
+  
+SyntaxError (/Users/jackyfly/codes/railsdemso/app/controllers/articles_controller.rb:3: syntax error, unexpected `do', expecting ';' or '\n'
+  def index do 
+            ^~
+):
+  
+app/controllers/articles_controller.rb:3: syntax error, unexpected `do', expecting ';' or '\n'
+app/controllers/articles_controller.rb:3: syntax error, unexpected `do', expecting ';' or '\n'
+app/controllers/articles_controller.rb:3: syntax error, unexpected `do', expecting ';' or '\n'
+Started GET "/" for ::1 at 2021-11-22 17:03:35 -0800
+  
+SyntaxError (/Users/jackyfly/codes/railsdemso/app/controllers/articles_controller.rb:3: syntax error, unexpected `do', expecting ';' or '\n'
+  def index do 
+            ^~
+):
+  
+app/controllers/articles_controller.rb:3: syntax error, unexpected `do', expecting ';' or '\n'
+app/controllers/articles_controller.rb:3: syntax error, unexpected `do', expecting ';' or '\n'
+app/controllers/articles_controller.rb:3: syntax error, unexpected `do', expecting ';' or '\n'
+Started GET "/articles" for ::1 at 2021-11-27 18:48:15 -0800
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.8ms | Allocations: 359)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 26.0ms | Allocations: 6585)
+Completed 200 OK in 45ms (Views: 31.6ms | ActiveRecord: 0.0ms | Allocations: 10253)
+
+
+Started GET "/articles" for ::1 at 2021-11-29 08:57:40 -0800
+  [1m[35m (1.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (1.7ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.9ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+You have 1 pending migration:
+
+20211128033711_create_entries.rb
+
+
+):
+  
+activerecord (6.1.4.1) lib/active_record/migration.rb:625:in `check_pending!'
+activerecord (6.1.4.1) lib/active_record/migration.rb:590:in `block (2 levels) in call'
+activesupport (6.1.4.1) lib/active_support/evented_file_update_checker.rb:59:in `execute'
+activesupport (6.1.4.1) lib/active_support/evented_file_update_checker.rb:65:in `execute_if_updated'
+activerecord (6.1.4.1) lib/active_record/migration.rb:597:in `block in call'
+activerecord (6.1.4.1) lib/active_record/migration.rb:587:in `synchronize'
+activerecord (6.1.4.1) lib/active_record/migration.rb:587:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.4.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.4.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.4.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.4.1) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.4.1) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.4.1) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.4.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.4.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.4.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/host_authorization.rb:98:in `call'
+rack-mini-profiler (2.3.3) lib/mini_profiler/profiler.rb:393:in `call'
+webpacker (5.4.3) lib/webpacker/dev_server_proxy.rb:25:in `perform_request'
+rack-proxy (0.7.0) lib/rack/proxy.rb:63:in `call'
+railties (6.1.4.1) lib/rails/engine.rb:539:in `call'
+puma (5.5.2) lib/puma/configuration.rb:249:in `call'
+puma (5.5.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.5.2) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.5.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.5.2) lib/puma/server.rb:447:in `process_client'
+puma (5.5.2) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateEntries (20211128033711)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  [1m[35mCREATE TABLE "entries" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "meal_type" varchar, "calories" integer, "protiens" integer, "carbohydrates" integer, "fats" integer, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20211128033711"]]
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.5ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.8ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2021-11-29 17:02:25.461168"], ["updated_at", "2021-11-29 17:02:25.461168"]]
+  [1m[36mTRANSACTION (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/articles" for ::1 at 2021-11-29 09:12:48 -0800
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 141)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 162.6ms | Allocations: 13848)
+Completed 200 OK in 194ms (Views: 171.4ms | ActiveRecord: 0.0ms | Allocations: 15335)
+
+
+Started GET "/rails/info" for ::1 at 2021-11-29 09:13:26 -0800
+Processing by Rails::InfoController#index as HTML
+Redirected to http://localhost:3000/rails/info/routes
+Completed 302 Found in 11ms (ActiveRecord: 0.0ms | Allocations: 1064)
+
+
+Started GET "/rails/info/routes" for ::1 at 2021-11-29 09:13:26 -0800
+Processing by Rails::InfoController#routes as HTML
+  Rendering layout /Users/jackyfly/.rvm/gems/ruby-3.0.2/gems/railties-6.1.4.1/lib/rails/templates/layouts/application.html.erb
+  Rendering /Users/jackyfly/.rvm/gems/ruby-3.0.2/gems/railties-6.1.4.1/lib/rails/templates/rails/info/routes.html.erb within layouts/application
+  Rendered collection of /Users/jackyfly/.rvm/gems/ruby-3.0.2/gems/actionpack-6.1.4.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [36 times] (Duration: 55.9ms | Allocations: 5669)
+  Rendered /Users/jackyfly/.rvm/gems/ruby-3.0.2/gems/actionpack-6.1.4.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (Duration: 14.9ms | Allocations: 1047)
+  Rendered /Users/jackyfly/.rvm/gems/ruby-3.0.2/gems/railties-6.1.4.1/lib/rails/templates/rails/info/routes.html.erb within layouts/application (Duration: 91.7ms | Allocations: 11569)
+  Rendered layout /Users/jackyfly/.rvm/gems/ruby-3.0.2/gems/railties-6.1.4.1/lib/rails/templates/layouts/application.html.erb (Duration: 92.8ms | Allocations: 11953)
+Completed 200 OK in 98ms (Views: 94.7ms | ActiveRecord: 0.0ms | Allocations: 13559)
+
+
+Started GET "/rails/info/routes?path=e" for ::1 at 2021-11-29 09:14:34 -0800
+Processing by Rails::InfoController#routes as */*
+  Parameters: {"path"=>"e"}
+Completed 200 OK in 14ms (Views: 5.8ms | ActiveRecord: 0.0ms | Allocations: 2475)
+
+
+Started GET "/rails/info/routes?path=/e" for ::1 at 2021-11-29 09:14:37 -0800
+Processing by Rails::InfoController#routes as */*
+  Parameters: {"path"=>"/e"}
+Completed 200 OK in 2ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 997)
+
+
+Started GET "/rails/info/routes?path=/e" for ::1 at 2021-11-29 09:14:37 -0800
+Processing by Rails::InfoController#routes as */*
+  Parameters: {"path"=>"/e"}
+Completed 200 OK in 4ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 990)
+
+
+Started GET "/rails/info/routes?path=/en" for ::1 at 2021-11-29 09:14:38 -0800
+Processing by Rails::InfoController#routes as */*
+  Parameters: {"path"=>"/en"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 969)
+
+
+Started GET "/rails/info/routes?path=/entrie" for ::1 at 2021-11-29 09:14:39 -0800
+Processing by Rails::InfoController#routes as */*
+  Parameters: {"path"=>"/entrie"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 969)
+
+
+Started GET "/rails/info/routes?path=/en" for ::1 at 2021-11-29 09:14:40 -0800
+Processing by Rails::InfoController#routes as */*
+  Parameters: {"path"=>"/en"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 968)
+
+
+Started GET "/rails/info/routes?path=new" for ::1 at 2021-11-29 09:14:44 -0800
+Processing by Rails::InfoController#routes as */*
+  Parameters: {"path"=>"new"}
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 917)
+
+
+Started GET "/rails/info/routes?path=e" for ::1 at 2021-11-29 09:15:50 -0800
+Processing by Rails::InfoController#routes as */*
+  Parameters: {"path"=>"e"}
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 1634)
+
+
+Started GET "/rails/info/routes?path=entr" for ::1 at 2021-11-29 09:15:51 -0800
+Processing by Rails::InfoController#routes as */*
+  Parameters: {"path"=>"entr"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 969)
+
+
+Started GET "/rails/info/routes?path=entry" for ::1 at 2021-11-29 09:15:52 -0800
+Processing by Rails::InfoController#routes as */*
+  Parameters: {"path"=>"entry"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 857)
+
+
+Started GET "/rails/info/routes?path=entr" for ::1 at 2021-11-29 09:15:54 -0800
+Processing by Rails::InfoController#routes as */*
+  Parameters: {"path"=>"entr"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 968)
+
+
+Started GET "/" for ::1 at 2021-11-29 09:24:05 -0800
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/views/entries/index.html.erb:18
+  [1m[36mEntry Load (0.5ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:18
+  Rendered entries/index.html.erb within layouts/application (Duration: 21.4ms | Allocations: 2067)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 39.8ms | Allocations: 5926)
+Completed 200 OK in 62ms (Views: 46.3ms | ActiveRecord: 1.9ms | Allocations: 8059)
+
+
+Started GET "/" for ::1 at 2021-11-29 09:31:35 -0800
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/views/entries/index.html.erb:18
+  [1m[36mEntry Load (0.5ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:18
+  Rendered entries/index.html.erb within layouts/application (Duration: 13.3ms | Allocations: 1947)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 33.4ms | Allocations: 5829)
+Completed 200 OK in 42ms (Views: 38.1ms | ActiveRecord: 1.5ms | Allocations: 7230)
+
+
+Started GET "/" for ::1 at 2021-11-29 09:35:03 -0800
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.2ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:18
+  Rendered entries/index.html.erb within layouts/application (Duration: 6.7ms | Allocations: 1189)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 19.9ms | Allocations: 5076)
+Completed 200 OK in 24ms (Views: 22.3ms | ActiveRecord: 0.2ms | Allocations: 6476)
+
+
+Started GET "/" for ::1 at 2021-11-29 09:44:17 -0800
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/views/entries/index.html.erb:18
+  [1m[36mEntry Load (1.0ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:18
+  Rendered entries/index.html.erb within layouts/application (Duration: 25.1ms | Allocations: 1921)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 49.3ms | Allocations: 5926)
+Completed 200 OK in 69ms (Views: 60.2ms | ActiveRecord: 3.0ms | Allocations: 7328)
+
+
+Started GET "/" for ::1 at 2021-11-29 09:46:57 -0800
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.2ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:18
+  Rendered entries/index.html.erb within layouts/application (Duration: 7.6ms | Allocations: 1143)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 2.1ms | Allocations: 107)
+  Rendered layout layouts/application.html.erb (Duration: 31.7ms | Allocations: 5465)
+Completed 200 OK in 37ms (Views: 34.4ms | ActiveRecord: 0.2ms | Allocations: 6857)
+
+
+Started GET "/" for ::1 at 2021-11-29 09:46:58 -0800
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.2ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:18
+  Rendered entries/index.html.erb within layouts/application (Duration: 3.4ms | Allocations: 703)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 40)
+  Rendered layout layouts/application.html.erb (Duration: 53.0ms | Allocations: 4295)
+Completed 200 OK in 55ms (Views: 53.6ms | ActiveRecord: 0.2ms | Allocations: 4810)
+
+
+Started GET "/fsafd" for ::1 at 2021-11-29 20:49:28 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/fsafd"):
+  
+Started GET "/rails/info" for ::1 at 2021-11-29 20:49:37 -0800
+Processing by Rails::InfoController#index as HTML
+Redirected to http://localhost:3000/rails/info/routes
+Completed 302 Found in 21ms (Allocations: 738)
+
+
+Started GET "/rails/info/routes" for ::1 at 2021-11-29 20:49:37 -0800
+Processing by Rails::InfoController#routes as HTML
+  Rendering layout /Users/jackyfly/.rvm/gems/ruby-3.0.2/gems/railties-6.1.4.1/lib/rails/templates/layouts/application.html.erb
+  Rendering /Users/jackyfly/.rvm/gems/ruby-3.0.2/gems/railties-6.1.4.1/lib/rails/templates/rails/info/routes.html.erb within layouts/application
+  Rendered collection of /Users/jackyfly/.rvm/gems/ruby-3.0.2/gems/actionpack-6.1.4.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [36 times] (Duration: 46.4ms | Allocations: 5642)
+  Rendered /Users/jackyfly/.rvm/gems/ruby-3.0.2/gems/actionpack-6.1.4.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (Duration: 0.8ms | Allocations: 757)
+  Rendered /Users/jackyfly/.rvm/gems/ruby-3.0.2/gems/railties-6.1.4.1/lib/rails/templates/rails/info/routes.html.erb within layouts/application (Duration: 71.7ms | Allocations: 10745)
+  Rendered layout /Users/jackyfly/.rvm/gems/ruby-3.0.2/gems/railties-6.1.4.1/lib/rails/templates/layouts/application.html.erb (Duration: 73.1ms | Allocations: 10974)
+Completed 200 OK in 106ms (Views: 88.7ms | Allocations: 12204)
+
+
+Started GET "/rails/info/routes?path=path" for ::1 at 2021-11-29 20:49:42 -0800
+Processing by Rails::InfoController#routes as */*
+  Parameters: {"path"=>"path"}
+Completed 200 OK in 20ms (Views: 3.5ms | Allocations: 1669)
+
+
+Started GET "/rails/info/routes?path=pa" for ::1 at 2021-11-29 20:49:43 -0800
+Processing by Rails::InfoController#routes as */*
+  Parameters: {"path"=>"pa"}
+Completed 200 OK in 2ms (Views: 0.8ms | Allocations: 872)
+
+
+Started GET "/rails/info/routes?path=entry" for ::1 at 2021-11-29 20:49:45 -0800
+Processing by Rails::InfoController#routes as */*
+  Parameters: {"path"=>"entry"}
+Completed 200 OK in 12ms (Views: 0.2ms | Allocations: 854)
+
+
+Started GET "/" for 127.0.0.1 at 2021-12-06 16:47:11 -0800
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.2ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:18
+  Rendered entries/index.html.erb within layouts/application (Duration: 4.5ms | Allocations: 1571)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 0.5ms | Allocations: 180)
+  Rendered layout layouts/application.html.erb (Duration: 37.4ms | Allocations: 14015)
+Completed 200 OK in 54ms (Views: 44.6ms | ActiveRecord: 0.2ms | Allocations: 18637)
+
+
+Started GET "/" for 127.0.0.1 at 2021-12-06 16:51:15 -0800
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.2ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:18
+  Rendered entries/index.html.erb within layouts/application (Duration: 9.0ms | Allocations: 1709)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 0.5ms | Allocations: 189)
+  Rendered layout layouts/application.html.erb (Duration: 24.6ms | Allocations: 9239)
+Completed 200 OK in 38ms (Views: 28.2ms | ActiveRecord: 0.2ms | Allocations: 14089)
+
+
+Started GET "/" for 127.0.0.1 at 2021-12-06 16:52:11 -0800
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.3ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:18
+  Rendered entries/index.html.erb within layouts/application (Duration: 10.7ms | Allocations: 1592)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 0.4ms | Allocations: 189)
+  Rendered layout layouts/application.html.erb (Duration: 27.6ms | Allocations: 9101)
+Completed 200 OK in 41ms (Views: 30.9ms | ActiveRecord: 0.3ms | Allocations: 13871)
+
+
+Started GET "/" for 127.0.0.1 at 2021-12-06 16:56:18 -0800
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.1ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:18
+  Rendered entries/index.html.erb within layouts/application (Duration: 3.5ms | Allocations: 1163)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 0.7ms | Allocations: 266)
+  Rendered layout layouts/application.html.erb (Duration: 18.9ms | Allocations: 5656)
+Completed 200 OK in 23ms (Views: 21.3ms | ActiveRecord: 0.1ms | Allocations: 7126)
+
+
+Started GET "/create%20new%20entry" for 127.0.0.1 at 2021-12-06 16:56:21 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/create%20new%20entry"):
+  
+Started GET "/create%20new%20entry" for 127.0.0.1 at 2021-12-06 16:56:33 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/create%20new%20entry"):
+  
+Started GET "/" for 127.0.0.1 at 2021-12-06 16:56:45 -0800
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.1ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:18
+  Rendered entries/index.html.erb within layouts/application (Duration: 1.9ms | Allocations: 800)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 6.2ms | Allocations: 63)
+  Rendered layout layouts/application.html.erb (Duration: 24.9ms | Allocations: 4562)
+Completed 200 OK in 26ms (Views: 25.5ms | ActiveRecord: 0.1ms | Allocations: 5087)
+
+
+Started GET "/" for 127.0.0.1 at 2021-12-06 16:57:59 -0800
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.4ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:18
+  Rendered entries/index.html.erb within layouts/application (Duration: 10.6ms | Allocations: 1593)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 0.5ms | Allocations: 273)
+  Rendered layout layouts/application.html.erb (Duration: 31.2ms | Allocations: 9172)
+Completed 200 OK in 47ms (Views: 35.3ms | ActiveRecord: 0.4ms | Allocations: 14089)
+
+
+Started GET "/" for 127.0.0.1 at 2021-12-06 16:58:00 -0800
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.1ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:18
+  Rendered entries/index.html.erb within layouts/application (Duration: 2.1ms | Allocations: 820)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 0.2ms | Allocations: 67)
+  Rendered layout layouts/application.html.erb (Duration: 10.6ms | Allocations: 4580)
+Completed 200 OK in 12ms (Views: 11.2ms | ActiveRecord: 0.1ms | Allocations: 5163)
+
+
+Started GET "/create%20new%20entry" for 127.0.0.1 at 2021-12-06 16:58:03 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/create%20new%20entry"):
+  
+Started GET "/" for 127.0.0.1 at 2021-12-06 16:58:04 -0800
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.1ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:18
+  Rendered entries/index.html.erb within layouts/application (Duration: 3.0ms | Allocations: 808)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+  Rendered layout layouts/application.html.erb (Duration: 11.3ms | Allocations: 4652)
+Completed 200 OK in 13ms (Views: 11.7ms | ActiveRecord: 0.1ms | Allocations: 5218)
+
+
+Started GET "/" for 127.0.0.1 at 2021-12-06 16:58:37 -0800
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.1ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:18
+  Rendered entries/index.html.erb within layouts/application (Duration: 6.9ms | Allocations: 1144)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 0.6ms | Allocations: 253)
+  Rendered layout layouts/application.html.erb (Duration: 15.8ms | Allocations: 5626)
+Completed 200 OK in 20ms (Views: 18.2ms | ActiveRecord: 0.1ms | Allocations: 6964)
+
+
+Started GET "/" for 127.0.0.1 at 2021-12-06 16:58:51 -0800
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.1ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:18
+  Rendered entries/index.html.erb within layouts/application (Duration: 2.3ms | Allocations: 1158)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 0.7ms | Allocations: 254)
+  Rendered layout layouts/application.html.erb (Duration: 10.6ms | Allocations: 5624)
+Completed 200 OK in 14ms (Views: 12.7ms | ActiveRecord: 0.1ms | Allocations: 7037)
+
+
+Started GET "/" for 127.0.0.1 at 2021-12-06 16:59:45 -0800
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.1ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:18
+  Rendered entries/index.html.erb within layouts/application (Duration: 3.1ms | Allocations: 1144)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 4.1ms | Allocations: 2345)
+  Rendered layout layouts/application.html.erb (Duration: 19.5ms | Allocations: 7673)
+Completed 500 Internal Server Error in 24ms (ActiveRecord: 0.1ms | Allocations: 9038)
+
+
+  
+ActionView::Template::Error (undefined method `stringify_keys' for "/entries/new":String):
+    3:     <nav class="navbar">
+    4:       <div class="container">
+    5:         <div class="navbar-brand">
+    6:             <%= link_to "create new entry", new_entry_path, class: "button is-success" do %>
+    7:             <% end %>
+    8:         </div>
+    9:         <div id="navbarMenuHeroB" class="navbar-menu">
+  
+app/views/shared/_header.html.erb:6
+app/views/layouts/application.html.erb:16
+Started GET "/" for 127.0.0.1 at 2021-12-06 17:00:23 -0800
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.3ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:18
+  Rendered entries/index.html.erb within layouts/application (Duration: 4.8ms | Allocations: 1561)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 0.5ms | Allocations: 232)
+  Rendered layout layouts/application.html.erb (Duration: 25.0ms | Allocations: 9052)
+Completed 200 OK in 49ms (Views: 36.6ms | ActiveRecord: 0.3ms | Allocations: 13872)
+
+
+Started GET "/" for 127.0.0.1 at 2021-12-06 17:04:09 -0800
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.1ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:18
+  Rendered entries/index.html.erb within layouts/application (Duration: 3.2ms | Allocations: 1153)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 0.6ms | Allocations: 216)
+  Rendered layout layouts/application.html.erb (Duration: 15.5ms | Allocations: 5581)
+Completed 200 OK in 19ms (Views: 17.4ms | ActiveRecord: 0.1ms | Allocations: 7044)
+
+
+Started GET "/" for 127.0.0.1 at 2021-12-06 17:04:10 -0800
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.1ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:18
+  Rendered entries/index.html.erb within layouts/application (Duration: 2.0ms | Allocations: 709)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 0.2ms | Allocations: 62)
+  Rendered layout layouts/application.html.erb (Duration: 8.8ms | Allocations: 4325)
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.1ms | Allocations: 4853)
+
+
+Started GET "/" for 127.0.0.1 at 2021-12-06 17:04:10 -0800
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.1ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:18
+  Rendered entries/index.html.erb within layouts/application (Duration: 2.1ms | Allocations: 703)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 0.2ms | Allocations: 63)
+  Rendered layout layouts/application.html.erb (Duration: 23.9ms | Allocations: 4318)
+Completed 200 OK in 25ms (Views: 24.2ms | ActiveRecord: 0.1ms | Allocations: 4779)
+
+
+Started GET "/" for 127.0.0.1 at 2021-12-06 17:05:10 -0800
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.1ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:18
+  Rendered entries/index.html.erb within layouts/application (Duration: 2.6ms | Allocations: 1153)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 0.4ms | Allocations: 214)
+  Rendered layout layouts/application.html.erb (Duration: 11.0ms | Allocations: 5589)
+Completed 200 OK in 15ms (Views: 13.3ms | ActiveRecord: 0.1ms | Allocations: 6935)
+
+
+Started GET "/" for 127.0.0.1 at 2021-12-06 17:08:16 -0800
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.1ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:18
+  Rendered entries/index.html.erb within layouts/application (Duration: 2.9ms | Allocations: 1149)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 8.5ms | Allocations: 3856)
+  Rendered layout layouts/application.html.erb (Duration: 18.8ms | Allocations: 9208)
+Completed 500 Internal Server Error in 22ms (ActiveRecord: 0.1ms | Allocations: 10584)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <section class="hero is-info is-small">
+  <div class="hero-head">
+    <nav class="navbar">
+      <div class="container">
+        <div class="navbar-brand">
+          <a class="navbar-item">
+            <img src="https://bulma.io/images/bulma-type-white.png" alt="Logo">
+          </a>
+          <span class="navbar-burger" data-target="navbarMenuHeroB">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+        </div>
+        <div id="navbarMenuHeroA" class="navbar-menu">
+          <div class="navbar-end">
+            <%= link_to "create new entry", new_entry_path, class: "button is-success" %>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <div class="hero-body">
+    <div class="container has-text-centered">
+        <h1 class="title">
+            <% if content_for(:title) do %>
+                <%= yield :title %>
+            <% else %>
+                Food-Log
+            <% end %>%>
+        </h1>
+    </div>
+  </div>
+
+  <div class="hero-foot">
+    <nav class="tabs is-boxed is-fullwidth">
+      <div class="container">
+        <ul>
+          <li class="is-active">
+            <a>Overview</a>
+          </li>
+          <li>
+            <a>Modifiers</a>
+          </li>
+          <li>
+            <a>Grid</a>
+          </li>
+          <li>
+            <a>Elements</a>
+          </li>
+          <li>
+            <a>Components</a>
+          </li>
+          <li>
+            <a>Layout</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+</section>
+):
+1:    <section class="hero is-info is-small">
+2:      <div class="hero-head">
+3:        <nav class="navbar">
+4:          <div class="container">
+5:            <div class="navbar-brand">
+6:              <a class="navbar-item">
+7:                <img src="https://bulma.io/images/bulma-type-white.png" alt="Logo">
+8:              </a>
+9:              <span class="navbar-burger" data-target="navbarMenuHeroB">
+10:                <span></span>
+11:                <span></span>
+12:                <span></span>
+13:              </span>
+14:            </div>
+15:            <div id="navbarMenuHeroA" class="navbar-menu">
+16:              <div class="navbar-end">
+17:                <%= link_to "create new entry", new_entry_path, class: "button is-success" %>
+18:              </div>
+19:            </div>
+20:          </div>
+21:        </nav>
+22:      </div>
+23:    
+24:      <div class="hero-body">
+25:        <div class="container has-text-centered">
+26:            <h1 class="title">
+27:                <% if content_for(:title) do %>
+28:                    <%= yield :title %>
+29:                <% else %>
+30:                    Food-Log
+31:                <% end %>%>
+32:            </h1>
+33:        </div>
+34:      </div>
+35:    
+36:      <div class="hero-foot">
+37:        <nav class="tabs is-boxed is-fullwidth">
+38:          <div class="container">
+39:            <ul>
+40:              <li class="is-active">
+41:                <a>Overview</a>
+42:              </li>
+43:              <li>
+44:                <a>Modifiers</a>
+45:              </li>
+46:              <li>
+47:                <a>Grid</a>
+48:              </li>
+49:              <li>
+50:                <a>Elements</a>
+51:              </li>
+52:              <li>
+53:                <a>Components</a>
+54:              </li>
+55:              <li>
+56:                <a>Layout</a>
+57:              </li>
+58:            </ul>
+59:          </div>
+60:        </nav>
+61:      </div>
+62:    </section>
+  
+app/views/shared/_header.html.erb:29: else without rescue is useless
+app/views/shared/_header.html.erb:64: syntax error, unexpected end-of-input, expecting `end'
+app/views/shared/_header.html.erb:29: else without rescue is useless
+app/views/shared/_header.html.erb:64: syntax error, unexpected end-of-input, expecting `end'
+app/views/shared/_header.html.erb:29: else without rescue is useless
+app/views/shared/_header.html.erb:64: syntax error, unexpected end-of-input, expecting `end'
+app/views/shared/_header.html.erb:29: else without rescue is useless
+app/views/shared/_header.html.erb:64: syntax error, unexpected end-of-input, expecting `end'
+app/views/shared/_header.html.erb:29: else without rescue is useless
+app/views/shared/_header.html.erb:64: syntax error, unexpected end-of-input, expecting `end'
+app/views/shared/_header.html.erb:29: else without rescue is useless
+app/views/shared/_header.html.erb:64: syntax error, unexpected end-of-input, expecting `end'
+app/views/layouts/application.html.erb:16
+Started GET "/" for 127.0.0.1 at 2021-12-06 17:09:35 -0800
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.1ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:18
+  Rendered entries/index.html.erb within layouts/application (Duration: 2.6ms | Allocations: 1157)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 1.2ms | Allocations: 1199)
+  Rendered layout layouts/application.html.erb (Duration: 11.1ms | Allocations: 6550)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.1ms | Allocations: 7927)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <section class="hero is-info is-small">
+  <div class="hero-head">
+    <nav class="navbar">
+      <div class="container">
+        <div class="navbar-brand">
+          <a class="navbar-item">
+            <img src="https://bulma.io/images/bulma-type-white.png" alt="Logo">
+          </a>
+          <span class="navbar-burger" data-target="navbarMenuHeroB">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+        </div>
+        <div id="navbarMenuHeroB" class="navbar-menu">
+          <div class="navbar-end">
+            <%= link_to "create new entry", new_entry_path, class: "button is-success" %>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <div class="hero-body">
+    <div class="container has-text-centered">
+        <h1 class="title">
+            <% if content_for(:title) do %>
+                <%= yield :title %>
+            <% else %>
+                Food-Log
+            <% end %>
+        </h1>
+    </div>
+  </div>
+
+  <div class="hero-foot">
+    <nav class="tabs is-boxed is-fullwidth">
+      <div class="container">
+        <ul>
+          <li class="is-active">
+            <a>Overview</a>
+          </li>
+          <li>
+            <a>Modifiers</a>
+          </li>
+          <li>
+            <a>Grid</a>
+          </li>
+          <li>
+            <a>Elements</a>
+          </li>
+          <li>
+            <a>Components</a>
+          </li>
+          <li>
+            <a>Layout</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+</section>
+):
+1:    <section class="hero is-info is-small">
+2:      <div class="hero-head">
+3:        <nav class="navbar">
+4:          <div class="container">
+5:            <div class="navbar-brand">
+6:              <a class="navbar-item">
+7:                <img src="https://bulma.io/images/bulma-type-white.png" alt="Logo">
+8:              </a>
+9:              <span class="navbar-burger" data-target="navbarMenuHeroB">
+10:                <span></span>
+11:                <span></span>
+12:                <span></span>
+13:              </span>
+14:            </div>
+15:            <div id="navbarMenuHeroB" class="navbar-menu">
+16:              <div class="navbar-end">
+17:                <%= link_to "create new entry", new_entry_path, class: "button is-success" %>
+18:              </div>
+19:            </div>
+20:          </div>
+21:        </nav>
+22:      </div>
+23:    
+24:      <div class="hero-body">
+25:        <div class="container has-text-centered">
+26:            <h1 class="title">
+27:                <% if content_for(:title) do %>
+28:                    <%= yield :title %>
+29:                <% else %>
+30:                    Food-Log
+31:                <% end %>
+32:            </h1>
+33:        </div>
+34:      </div>
+35:    
+36:      <div class="hero-foot">
+37:        <nav class="tabs is-boxed is-fullwidth">
+38:          <div class="container">
+39:            <ul>
+40:              <li class="is-active">
+41:                <a>Overview</a>
+42:              </li>
+43:              <li>
+44:                <a>Modifiers</a>
+45:              </li>
+46:              <li>
+47:                <a>Grid</a>
+48:              </li>
+49:              <li>
+50:                <a>Elements</a>
+51:              </li>
+52:              <li>
+53:                <a>Components</a>
+54:              </li>
+55:              <li>
+56:                <a>Layout</a>
+57:              </li>
+58:            </ul>
+59:          </div>
+60:        </nav>
+61:      </div>
+62:    </section>
+  
+app/views/shared/_header.html.erb:29: else without rescue is useless
+app/views/shared/_header.html.erb:64: syntax error, unexpected end-of-input, expecting `end'
+app/views/shared/_header.html.erb:29: else without rescue is useless
+app/views/shared/_header.html.erb:64: syntax error, unexpected end-of-input, expecting `end'
+app/views/shared/_header.html.erb:29: else without rescue is useless
+app/views/shared/_header.html.erb:64: syntax error, unexpected end-of-input, expecting `end'
+app/views/shared/_header.html.erb:29: else without rescue is useless
+app/views/shared/_header.html.erb:64: syntax error, unexpected end-of-input, expecting `end'
+app/views/shared/_header.html.erb:29: else without rescue is useless
+app/views/shared/_header.html.erb:64: syntax error, unexpected end-of-input, expecting `end'
+app/views/shared/_header.html.erb:29: else without rescue is useless
+app/views/shared/_header.html.erb:64: syntax error, unexpected end-of-input, expecting `end'
+app/views/layouts/application.html.erb:16
+Started GET "/" for 127.0.0.1 at 2021-12-06 17:11:16 -0800
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.4ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:18
+  Rendered entries/index.html.erb within layouts/application (Duration: 11.4ms | Allocations: 1737)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 1.1ms | Allocations: 297)
+  Rendered layout layouts/application.html.erb (Duration: 37.2ms | Allocations: 9301)
+Completed 200 OK in 54ms (Views: 41.4ms | ActiveRecord: 0.4ms | Allocations: 14117)
+
+
+Started GET "/" for 127.0.0.1 at 2021-12-06 17:14:46 -0800
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.1ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:22
+  Rendered entries/index.html.erb within layouts/application (Duration: 5.0ms | Allocations: 1258)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 1.1ms | Allocations: 282)
+  Rendered layout layouts/application.html.erb (Duration: 20.3ms | Allocations: 5766)
+Completed 200 OK in 25ms (Views: 23.7ms | ActiveRecord: 0.1ms | Allocations: 7236)
+
+
+Started GET "/entries/new" for 127.0.0.1 at 2021-12-06 17:16:01 -0800
+Processing by EntriesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/new.html.erb within layouts/application
+  Rendered entries/_form.html.erb (Duration: 42.5ms | Allocations: 9084)
+  Rendered entries/new.html.erb within layouts/application (Duration: 44.5ms | Allocations: 9457)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 0.2ms | Allocations: 64)
+  Rendered layout layouts/application.html.erb (Duration: 50.9ms | Allocations: 13141)
+Completed 200 OK in 65ms (Views: 51.5ms | ActiveRecord: 1.0ms | Allocations: 18227)
+
+
+Started POST "/entries" for 127.0.0.1 at 2021-12-06 17:16:22 -0800
+Processing by EntriesController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "entry"=>{"meal_type"=>"Breakfast", "calories"=>"120", "protiens"=>"23", "carbohydrates"=>"530", "fats"=>"221"}, "commit"=>"Create Entry"}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/entries_controller.rb:27:in `block in create'
+  [1m[36mEntry Create (2.3ms)[0m  [1m[32mINSERT INTO "entries" ("meal_type", "calories", "protiens", "carbohydrates", "fats", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["meal_type", "Breakfast"], ["calories", 120], ["protiens", 23], ["carbohydrates", 530], ["fats", 221], ["created_at", "2021-12-07 01:16:22.497825"], ["updated_at", "2021-12-07 01:16:22.497825"]]
+  ↳ app/controllers/entries_controller.rb:27:in `block in create'
+  [1m[36mTRANSACTION (1.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/entries_controller.rb:27:in `block in create'
+Redirected to http://127.0.0.1:3000/entries/1
+Completed 302 Found in 14ms (ActiveRecord: 4.1ms | Allocations: 3554)
+
+
+Started GET "/entries/1" for 127.0.0.1 at 2021-12-06 17:16:22 -0800
+Processing by EntriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEntry Load (0.2ms)[0m  [1m[34mSELECT "entries".* FROM "entries" WHERE "entries"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/entries_controller.rb:62:in `set_entry'
+  Rendering layout layouts/application.html.erb
+  Rendering entries/show.html.erb within layouts/application
+  Rendered entries/show.html.erb within layouts/application (Duration: 1.2ms | Allocations: 420)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 0.2ms | Allocations: 66)
+  Rendered layout layouts/application.html.erb (Duration: 8.0ms | Allocations: 4192)
+Completed 200 OK in 16ms (Views: 8.5ms | ActiveRecord: 0.2ms | Allocations: 6226)
+
+
+Started GET "/entries/new" for 127.0.0.1 at 2021-12-06 17:16:36 -0800
+Processing by EntriesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/new.html.erb within layouts/application
+  Rendered entries/_form.html.erb (Duration: 2.8ms | Allocations: 1283)
+  Rendered entries/new.html.erb within layouts/application (Duration: 3.3ms | Allocations: 1395)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 63)
+  Rendered layout layouts/application.html.erb (Duration: 15.2ms | Allocations: 5582)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms | Allocations: 6089)
+
+
+Started GET "/entries" for 127.0.0.1 at 2021-12-06 17:16:45 -0800
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.1ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:22
+  Rendered entries/index.html.erb within layouts/application (Duration: 3.0ms | Allocations: 850)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 67)
+  Rendered layout layouts/application.html.erb (Duration: 12.2ms | Allocations: 4944)
+Completed 200 OK in 13ms (Views: 12.5ms | ActiveRecord: 0.1ms | Allocations: 5408)
+
+
+Started GET "/entries" for 127.0.0.1 at 2021-12-06 17:16:47 -0800
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.3ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:22
+  Rendered entries/index.html.erb within layouts/application (Duration: 3.0ms | Allocations: 824)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 0.2ms | Allocations: 67)
+  Rendered layout layouts/application.html.erb (Duration: 9.4ms | Allocations: 4443)
+Completed 200 OK in 11ms (Views: 10.5ms | ActiveRecord: 0.3ms | Allocations: 4903)
+
+
+Started GET "/" for 127.0.0.1 at 2021-12-06 17:16:52 -0800
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.2ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:22
+  Rendered entries/index.html.erb within layouts/application (Duration: 2.6ms | Allocations: 824)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 0.2ms | Allocations: 67)
+  Rendered layout layouts/application.html.erb (Duration: 9.3ms | Allocations: 4446)
+Completed 200 OK in 10ms (Views: 9.6ms | ActiveRecord: 0.2ms | Allocations: 4906)
+
+
+Started GET "/entries/1/edit" for 127.0.0.1 at 2021-12-06 17:16:58 -0800
+Processing by EntriesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEntry Load (0.1ms)[0m  [1m[34mSELECT "entries".* FROM "entries" WHERE "entries"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/entries_controller.rb:62:in `set_entry'
+  Rendering layout layouts/application.html.erb
+  Rendering entries/edit.html.erb within layouts/application
+  Rendered entries/_form.html.erb (Duration: 2.5ms | Allocations: 1289)
+  Rendered entries/edit.html.erb within layouts/application (Duration: 3.8ms | Allocations: 1551)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 0.5ms | Allocations: 63)
+  Rendered layout layouts/application.html.erb (Duration: 14.1ms | Allocations: 5743)
+Completed 200 OK in 17ms (Views: 14.8ms | ActiveRecord: 0.1ms | Allocations: 6878)
+
+
+Started PATCH "/entries/1" for 127.0.0.1 at 2021-12-06 17:17:02 -0800
+Processing by EntriesController#update as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "entry"=>{"meal_type"=>"Breakfast", "calories"=>"120", "protiens"=>"23", "carbohydrates"=>"530", "fats"=>"222"}, "commit"=>"Update Entry", "id"=>"1"}
+  [1m[36mEntry Load (0.1ms)[0m  [1m[34mSELECT "entries".* FROM "entries" WHERE "entries"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/entries_controller.rb:62:in `set_entry'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/entries_controller.rb:40:in `block in update'
+  [1m[36mEntry Update (1.0ms)[0m  [1m[33mUPDATE "entries" SET "fats" = ?, "updated_at" = ? WHERE "entries"."id" = ?[0m  [["fats", 222], ["updated_at", "2021-12-07 01:17:02.793727"], ["id", 1]]
+  ↳ app/controllers/entries_controller.rb:40:in `block in update'
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/entries_controller.rb:40:in `block in update'
+Redirected to http://127.0.0.1:3000/entries/1
+Completed 302 Found in 11ms (ActiveRecord: 2.0ms | Allocations: 3385)
+
+
+Started GET "/entries/1" for 127.0.0.1 at 2021-12-06 17:17:02 -0800
+Processing by EntriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEntry Load (0.3ms)[0m  [1m[34mSELECT "entries".* FROM "entries" WHERE "entries"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/entries_controller.rb:62:in `set_entry'
+  Rendering layout layouts/application.html.erb
+  Rendering entries/show.html.erb within layouts/application
+  Rendered entries/show.html.erb within layouts/application (Duration: 0.5ms | Allocations: 117)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 0.2ms | Allocations: 64)
+  Rendered layout layouts/application.html.erb (Duration: 8.7ms | Allocations: 3741)
+Completed 200 OK in 18ms (Views: 9.1ms | ActiveRecord: 0.3ms | Allocations: 4751)
+
+
+Started GET "/entries/1" for 127.0.0.1 at 2021-12-07 22:36:48 -0800
+Processing by EntriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/entries_controller.rb:62:in `set_entry'
+  [1m[36mEntry Load (0.2ms)[0m  [1m[34mSELECT "entries".* FROM "entries" WHERE "entries"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/entries_controller.rb:62:in `set_entry'
+  Rendering layout layouts/application.html.erb
+  Rendering entries/show.html.erb within layouts/application
+  Rendered entries/show.html.erb within layouts/application (Duration: 2.6ms | Allocations: 431)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 1.1ms | Allocations: 283)
+  Rendered layout layouts/application.html.erb (Duration: 24.3ms | Allocations: 4924)
+Completed 200 OK in 40ms (Views: 29.1ms | ActiveRecord: 1.1ms | Allocations: 7472)
+
+
+Started GET "/entries/1" for 127.0.0.1 at 2021-12-07 22:38:20 -0800
+Processing by EntriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEntry Load (0.2ms)[0m  [1m[34mSELECT "entries".* FROM "entries" WHERE "entries"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/entries_controller.rb:62:in `set_entry'
+  Rendering layout layouts/application.html.erb
+  Rendering entries/show.html.erb within layouts/application
+  Rendered entries/show.html.erb within layouts/application (Duration: 1.1ms | Allocations: 426)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 0.8ms | Allocations: 279)
+  Rendered layout layouts/application.html.erb (Duration: 9.2ms | Allocations: 4906)
+Completed 200 OK in 15ms (Views: 11.1ms | ActiveRecord: 0.2ms | Allocations: 6923)
+
+
+Started GET "/entries/1" for 127.0.0.1 at 2021-12-07 22:38:21 -0800
+Processing by EntriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEntry Load (0.2ms)[0m  [1m[34mSELECT "entries".* FROM "entries" WHERE "entries"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/entries_controller.rb:62:in `set_entry'
+  Rendering layout layouts/application.html.erb
+  Rendering entries/show.html.erb within layouts/application
+  Rendered entries/show.html.erb within layouts/application (Duration: 0.4ms | Allocations: 114)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 64)
+  Rendered layout layouts/application.html.erb (Duration: 6.4ms | Allocations: 3722)
+Completed 200 OK in 10ms (Views: 7.1ms | ActiveRecord: 0.2ms | Allocations: 4868)
+
+
+Started GET "/entries/1" for 127.0.0.1 at 2021-12-07 22:38:31 -0800
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by EntriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEntry Load (0.2ms)[0m  [1m[34mSELECT "entries".* FROM "entries" WHERE "entries"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/entries_controller.rb:62:in `set_entry'
+  Rendering layout layouts/application.html.erb
+  Rendering entries/show.html.erb within layouts/application
+  Rendered entries/show.html.erb within layouts/application (Duration: 8.2ms | Allocations: 919)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 0.6ms | Allocations: 300)
+  Rendered layout layouts/application.html.erb (Duration: 33.8ms | Allocations: 8529)
+Completed 200 OK in 62ms (Views: 38.2ms | ActiveRecord: 0.9ms | Allocations: 19129)
+
+
+Started GET "/entries/1" for 127.0.0.1 at 2021-12-07 22:38:33 -0800
+Processing by EntriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEntry Load (0.2ms)[0m  [1m[34mSELECT "entries".* FROM "entries" WHERE "entries"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/entries_controller.rb:62:in `set_entry'
+  Rendering layout layouts/application.html.erb
+  Rendering entries/show.html.erb within layouts/application
+  Rendered entries/show.html.erb within layouts/application (Duration: 0.3ms | Allocations: 150)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 0.2ms | Allocations: 66)
+  Rendered layout layouts/application.html.erb (Duration: 7.9ms | Allocations: 3893)
+Completed 200 OK in 13ms (Views: 9.2ms | ActiveRecord: 0.2ms | Allocations: 5108)
+
+
+Started GET "/entries/1" for 127.0.0.1 at 2021-12-07 22:38:33 -0800
+Processing by EntriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEntry Load (0.1ms)[0m  [1m[34mSELECT "entries".* FROM "entries" WHERE "entries"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/entries_controller.rb:62:in `set_entry'
+  Rendering layout layouts/application.html.erb
+  Rendering entries/show.html.erb within layouts/application
+  Rendered entries/show.html.erb within layouts/application (Duration: 0.3ms | Allocations: 114)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 64)
+  Rendered layout layouts/application.html.erb (Duration: 6.8ms | Allocations: 3736)
+Completed 200 OK in 9ms (Views: 7.2ms | ActiveRecord: 0.1ms | Allocations: 4756)
+
+
+Started GET "/entries/1/edit" for 127.0.0.1 at 2021-12-07 22:38:35 -0800
+Processing by EntriesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEntry Load (0.2ms)[0m  [1m[34mSELECT "entries".* FROM "entries" WHERE "entries"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/entries_controller.rb:62:in `set_entry'
+  Rendering layout layouts/application.html.erb
+  Rendering entries/edit.html.erb within layouts/application
+  Rendered entries/_form.html.erb (Duration: 10.7ms | Allocations: 4003)
+  Rendered entries/edit.html.erb within layouts/application (Duration: 12.7ms | Allocations: 4453)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 0.2ms | Allocations: 64)
+  Rendered layout layouts/application.html.erb (Duration: 19.3ms | Allocations: 8222)
+Completed 200 OK in 23ms (Views: 20.0ms | ActiveRecord: 0.2ms | Allocations: 9429)
+
+
+Started GET "/entries" for 127.0.0.1 at 2021-12-07 22:38:38 -0800
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.2ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:7
+  Rendered entries/index.html.erb within layouts/application (Duration: 10.5ms | Allocations: 4971)
+  Rendered layout layouts/application.html.erb (Duration: 10.7ms | Allocations: 5051)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.2ms | Allocations: 5754)
+
+
+  
+ActionView::Template::Error (undefined method `meta_type' for #<Entry id: 1, meal_type: "Breakfast", calories: 120, protiens: 23, carbohydrates: 530, fats: 222, created_at: "2021-12-07 01:16:22.497825000 +0000", updated_at: "2021-12-07 01:17:02.793727000 +0000">
+Did you mean?  meal_type
+               meal_type?
+               meal_type=):
+     8:     <div class="card">
+     9:       <header class="class-header">
+    10:         <p class="header-header-title">
+    11:           <%= entry.meta_type %>
+    12:         </p>
+    13:       </header>
+    14:       <div class="card-content">
+  
+app/views/entries/index.html.erb:11
+app/views/entries/index.html.erb:7
+Started GET "/entries" for 127.0.0.1 at 2021-12-07 22:39:02 -0800
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.1ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:7
+  Rendered entries/index.html.erb within layouts/application (Duration: 3.1ms | Allocations: 1341)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 0.5ms | Allocations: 283)
+  Rendered layout layouts/application.html.erb (Duration: 11.8ms | Allocations: 5849)
+Completed 200 OK in 15ms (Views: 13.5ms | ActiveRecord: 0.1ms | Allocations: 7254)
+
+
+Started GET "/" for ::1 at 2021-12-20 17:35:31 -0800
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.3ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:7
+  Rendered entries/index.html.erb within layouts/application (Duration: 15.4ms | Allocations: 6305)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 0.9ms | Allocations: 306)
+  Rendered layout layouts/application.html.erb (Duration: 43.4ms | Allocations: 13860)
+Completed 200 OK in 65ms (Views: 50.8ms | ActiveRecord: 1.1ms | Allocations: 18602)
+
+
+Started GET "/" for ::1 at 2021-12-20 17:36:11 -0800
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.1ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:7
+  Rendered entries/index.html.erb within layouts/application (Duration: 3.7ms | Allocations: 1343)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 0.9ms | Allocations: 283)
+  Rendered layout layouts/application.html.erb (Duration: 14.2ms | Allocations: 5836)
+Completed 200 OK in 18ms (Views: 16.5ms | ActiveRecord: 0.1ms | Allocations: 7281)
+
+
+Started GET "/requestProvider.js.map" for ::1 at 2021-12-20 17:39:56 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/requestProvider.js.map"):
+  
+Started GET "/entries/new" for ::1 at 2021-12-20 17:45:36 -0800
+Processing by EntriesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/new.html.erb within layouts/application
+  Rendered entries/_form.html.erb (Duration: 29.7ms | Allocations: 6688)
+  Rendered entries/new.html.erb within layouts/application (Duration: 32.0ms | Allocations: 7060)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 64)
+  Rendered layout layouts/application.html.erb (Duration: 44.1ms | Allocations: 10917)
+Completed 200 OK in 46ms (Views: 44.6ms | Allocations: 11663)
+
+
+Started GET "/" for ::1 at 2021-12-20 18:06:21 -0800
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/views/entries/index.html.erb:7
+  [1m[36mEntry Load (0.4ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:7
+  Rendered entries/index.html.erb within layouts/application (Duration: 28.4ms | Allocations: 1682)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 1.0ms | Allocations: 67)
+  Rendered layout layouts/application.html.erb (Duration: 54.4ms | Allocations: 5302)
+Completed 200 OK in 66ms (Views: 58.7ms | ActiveRecord: 3.7ms | Allocations: 5827)
+
+
+Started GET "/requestProvider.js.map" for ::1 at 2021-12-20 18:14:18 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/requestProvider.js.map"):
+  
+Started GET "/" for ::1 at 2021-12-20 18:15:08 -0800
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/views/entries/index.html.erb:7
+  [1m[36mEntry Load (0.2ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:7
+  Rendered entries/index.html.erb within layouts/application (Duration: 13.0ms | Allocations: 1536)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 0.3ms | Allocations: 67)
+  Rendered layout layouts/application.html.erb (Duration: 35.1ms | Allocations: 5171)
+Completed 200 OK in 37ms (Views: 35.7ms | ActiveRecord: 1.4ms | Allocations: 5644)
+
+
+Started GET "/entries/new" for ::1 at 2021-12-20 18:16:19 -0800
+Processing by EntriesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/new.html.erb within layouts/application
+  Rendered entries/_form.html.erb (Duration: 7.0ms | Allocations: 1230)
+  Rendered entries/new.html.erb within layouts/application (Duration: 7.7ms | Allocations: 1342)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 0.2ms | Allocations: 63)
+  Rendered layout layouts/application.html.erb (Duration: 26.9ms | Allocations: 4947)
+Completed 200 OK in 29ms (Views: 27.6ms | ActiveRecord: 0.0ms | Allocations: 5432)
+
+
+Started GET "/entries/new" for ::1 at 2021-12-20 18:40:09 -0800
+Processing by EntriesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/new.html.erb within layouts/application
+  Rendered entries/_form.html.erb (Duration: 18.5ms | Allocations: 1214)
+  Rendered entries/new.html.erb within layouts/application (Duration: 19.9ms | Allocations: 1326)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 0.3ms | Allocations: 63)
+  Rendered layout layouts/application.html.erb (Duration: 47.7ms | Allocations: 4943)
+Completed 200 OK in 61ms (Views: 50.5ms | Allocations: 5406)
+
+
+Started GET "/" for ::1 at 2021-12-20 18:45:03 -0800
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/views/entries/index.html.erb:7
+  [1m[36mEntry Load (0.6ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:7
+  Rendered entries/index.html.erb within layouts/application (Duration: 12.4ms | Allocations: 1554)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 0.2ms | Allocations: 67)
+  Rendered layout layouts/application.html.erb (Duration: 33.9ms | Allocations: 5253)
+Completed 200 OK in 39ms (Views: 35.5ms | ActiveRecord: 2.2ms | Allocations: 5716)
+
+
+Started GET "/" for ::1 at 2021-12-24 17:23:48 -0800
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/views/entries/index.html.erb:7
+  [1m[36mEntry Load (0.6ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:7
+  Rendered entries/index.html.erb within layouts/application (Duration: 23.4ms | Allocations: 2138)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 2.3ms | Allocations: 283)
+  Rendered layout layouts/application.html.erb (Duration: 56.2ms | Allocations: 6646)
+Completed 200 OK in 84ms (Views: 71.9ms | ActiveRecord: 1.7ms | Allocations: 7986)
+
+
+Started GET "/css/shCore.css" for ::1 at 2021-12-24 17:23:48 -0800
+Started GET "/css/shThemeDefault.css" for ::1 at 2021-12-24 17:23:48 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/css/shCore.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/css/shThemeDefault.css"):
+  
+Started GET "/js/shCore.js" for ::1 at 2021-12-24 17:23:48 -0800
+Started GET "/js/shBrushCpp.js" for ::1 at 2021-12-24 17:23:48 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/js/shCore.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/js/shBrushCpp.js"):
+  
+Started GET "/css/shThemeDefault.css" for ::1 at 2021-12-24 17:23:49 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/css/shThemeDefault.css"):
+  
+Started GET "/js/shCore.js" for ::1 at 2021-12-24 17:23:49 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/js/shCore.js"):
+  
+Started GET "/js/shBrushCpp.js" for ::1 at 2021-12-24 17:23:49 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/js/shBrushCpp.js"):
+  
+Started GET "/css/shCore.css" for ::1 at 2021-12-24 17:24:13 -0800
+Started GET "/css/shThemeDefault.css" for ::1 at 2021-12-24 17:24:13 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/css/shCore.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/css/shThemeDefault.css"):
+  
+Started GET "/requestProvider.js.map" for ::1 at 2021-12-24 17:24:13 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/requestProvider.js.map"):
+  
+Started GET "/" for ::1 at 2021-12-24 17:24:56 -0800
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.2ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:7
+  Rendered entries/index.html.erb within layouts/application (Duration: 4.3ms | Allocations: 1379)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 1.0ms | Allocations: 283)
+  Rendered layout layouts/application.html.erb (Duration: 22.2ms | Allocations: 5872)
+Completed 200 OK in 27ms (Views: 25.4ms | ActiveRecord: 0.2ms | Allocations: 7234)
+
+
+Started GET "/css/shCore.css" for ::1 at 2021-12-24 17:24:56 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/css/shCore.css"):
+  
+Started GET "/css/shThemeDefault.css" for ::1 at 2021-12-24 17:24:56 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/css/shThemeDefault.css"):
+  
+Started GET "/requestProvider.js.map" for ::1 at 2021-12-24 17:24:57 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/requestProvider.js.map"):
+  
+Started GET "/js/shCore.js" for ::1 at 2021-12-24 17:24:57 -0800
+Started GET "/js/shBrushCpp.js" for ::1 at 2021-12-24 17:24:57 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/js/shBrushCpp.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/js/shCore.js"):
+  
+Started GET "/css/shCore.css" for ::1 at 2021-12-24 17:24:57 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/css/shCore.css"):
+  
+Started GET "/css/shThemeDefault.css" for ::1 at 2021-12-24 17:24:57 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/css/shThemeDefault.css"):
+  
+Started GET "/js/shCore.js" for ::1 at 2021-12-24 17:24:57 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/js/shCore.js"):
+  
+Started GET "/js/shBrushCpp.js" for ::1 at 2021-12-24 17:24:57 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/js/shBrushCpp.js"):
+  
+Started GET "/" for ::1 at 2021-12-24 17:24:58 -0800
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.2ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:7
+  Rendered entries/index.html.erb within layouts/application (Duration: 4.2ms | Allocations: 808)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 0.4ms | Allocations: 67)
+  Rendered layout layouts/application.html.erb (Duration: 15.9ms | Allocations: 4441)
+Completed 200 OK in 18ms (Views: 16.8ms | ActiveRecord: 0.2ms | Allocations: 4925)
+
+
+Started GET "/css/shCore.css" for ::1 at 2021-12-24 17:24:59 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/css/shCore.css"):
+  
+Started GET "/css/shThemeDefault.css" for ::1 at 2021-12-24 17:24:59 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/css/shThemeDefault.css"):
+  
+Started GET "/requestProvider.js.map" for ::1 at 2021-12-24 17:24:59 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/requestProvider.js.map"):
+  
+Started GET "/js/shCore.js" for ::1 at 2021-12-24 17:24:59 -0800
+Started GET "/js/shBrushCpp.js" for ::1 at 2021-12-24 17:24:59 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/js/shCore.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/js/shBrushCpp.js"):
+  
+Started GET "/css/shThemeDefault.css" for ::1 at 2021-12-24 17:24:59 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/css/shThemeDefault.css"):
+  
+Started GET "/js/shCore.js" for ::1 at 2021-12-24 17:24:59 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/js/shCore.js"):
+  
+Started GET "/js/shBrushCpp.js" for ::1 at 2021-12-24 17:24:59 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/js/shBrushCpp.js"):
+  
+Started GET "/" for ::1 at 2021-12-24 17:26:04 -0800
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (1.1ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:7
+  Rendered entries/index.html.erb within layouts/application (Duration: 5.0ms | Allocations: 1384)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 1.0ms | Allocations: 283)
+  Rendered layout layouts/application.html.erb (Duration: 19.5ms | Allocations: 5892)
+Completed 200 OK in 23ms (Views: 20.9ms | ActiveRecord: 1.1ms | Allocations: 7231)
+
+
+Started GET "/css/shCore.css" for ::1 at 2021-12-24 17:26:04 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/css/shCore.css"):
+  
+Started GET "/css/shThemeDefault.css" for ::1 at 2021-12-24 17:26:04 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/css/shThemeDefault.css"):
+  
+Started GET "/requestProvider.js.map" for ::1 at 2021-12-24 17:26:05 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/requestProvider.js.map"):
+  
+Started GET "/js/shCore.js" for ::1 at 2021-12-24 17:26:05 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/js/shCore.js"):
+  
+Started GET "/js/shBrushCpp.js" for ::1 at 2021-12-24 17:26:05 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/js/shBrushCpp.js"):
+  
+Started GET "/css/shCore.css" for ::1 at 2021-12-24 17:26:05 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/css/shCore.css"):
+  
+Started GET "/css/shThemeDefault.css" for ::1 at 2021-12-24 17:26:05 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/css/shThemeDefault.css"):
+  
+Started GET "/js/shCore.js" for ::1 at 2021-12-24 17:26:05 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/js/shCore.js"):
+  
+Started GET "/js/shBrushCpp.js" for ::1 at 2021-12-24 17:26:05 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/js/shBrushCpp.js"):
+  
+Started GET "/" for ::1 at 2021-12-24 17:26:30 -0800
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.2ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:7
+  Rendered entries/index.html.erb within layouts/application (Duration: 4.1ms | Allocations: 1383)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 1.8ms | Allocations: 283)
+  Rendered layout layouts/application.html.erb (Duration: 19.5ms | Allocations: 5891)
+Completed 200 OK in 24ms (Views: 22.1ms | ActiveRecord: 0.2ms | Allocations: 7252)
+
+
+Started GET "/css/shCore.css" for ::1 at 2021-12-24 17:26:30 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/css/shCore.css"):
+  
+Started GET "/requestProvider.js.map" for ::1 at 2021-12-24 17:26:30 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/requestProvider.js.map"):
+  
+Started GET "/css/shThemeDefault.css" for ::1 at 2021-12-24 17:26:31 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/css/shThemeDefault.css"):
+  
+Started GET "/css/shCore.css" for ::1 at 2021-12-24 17:26:31 -0800
+Started GET "/js/shBrushCpp.js" for ::1 at 2021-12-24 17:26:31 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/js/shBrushCpp.js"):
+  
+Started GET "/js/shCore.js" for ::1 at 2021-12-24 17:26:31 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/css/shCore.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/js/shCore.js"):
+  
+Started GET "/js/shBrushCpp.js" for ::1 at 2021-12-24 17:26:31 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/js/shBrushCpp.js"):
+  
+Started GET "/" for ::1 at 2021-12-24 17:26:41 -0800
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.1ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:7
+  Rendered entries/index.html.erb within layouts/application (Duration: 3.7ms | Allocations: 1388)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 1.4ms | Allocations: 283)
+  Rendered layout layouts/application.html.erb (Duration: 16.3ms | Allocations: 5896)
+Completed 200 OK in 21ms (Views: 19.1ms | ActiveRecord: 0.1ms | Allocations: 7258)
+
+
+Started GET "/css/shCore.css" for ::1 at 2021-12-24 17:26:41 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/css/shCore.css"):
+  
+Started GET "/requestProvider.js.map" for ::1 at 2021-12-24 17:26:42 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/requestProvider.js.map"):
+  
+Started GET "/css/shThemeDefault.css" for ::1 at 2021-12-24 17:26:42 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/css/shThemeDefault.css"):
+  
+Started GET "/js/shCore.js" for ::1 at 2021-12-24 17:26:42 -0800
+Started GET "/css/shCore.css" for ::1 at 2021-12-24 17:26:42 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/js/shCore.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/css/shCore.css"):
+  
+Started GET "/css/shThemeDefault.css" for ::1 at 2021-12-24 17:26:42 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/css/shThemeDefault.css"):
+  
+Started GET "/js/shBrushCpp.js" for ::1 at 2021-12-24 17:26:42 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/js/shBrushCpp.js"):
+  
+Started GET "/js/shCore.js" for ::1 at 2021-12-24 17:26:42 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/js/shCore.js"):
+  
+Started GET "/js/shBrushCpp.js" for ::1 at 2021-12-24 17:26:42 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/js/shBrushCpp.js"):
+  
+Started GET "/" for ::1 at 2021-12-24 17:28:19 -0800
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.3ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:7
+  Rendered entries/index.html.erb within layouts/application (Duration: 4.1ms | Allocations: 1399)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 1.4ms | Allocations: 283)
+  Rendered layout layouts/application.html.erb (Duration: 20.9ms | Allocations: 5907)
+Completed 200 OK in 25ms (Views: 23.5ms | ActiveRecord: 0.3ms | Allocations: 7269)
+
+
+Started GET "/css/shCore.css" for ::1 at 2021-12-24 17:28:19 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/css/shCore.css"):
+  
+Started GET "/requestProvider.js.map" for ::1 at 2021-12-24 17:28:19 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/requestProvider.js.map"):
+  
+Started GET "/css/shThemeDefault.css" for ::1 at 2021-12-24 17:28:20 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/css/shThemeDefault.css"):
+  
+Started GET "/js/shCore.js" for ::1 at 2021-12-24 17:28:20 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/js/shCore.js"):
+  
+Started GET "/js/shBrushCpp.js" for ::1 at 2021-12-24 17:28:20 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/js/shBrushCpp.js"):
+  
+Started GET "/css/shCore.css" for ::1 at 2021-12-24 17:28:20 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/css/shCore.css"):
+  
+Started GET "/css/shThemeDefault.css" for ::1 at 2021-12-24 17:28:20 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/css/shThemeDefault.css"):
+  
+Started GET "/js/shCore.js" for ::1 at 2021-12-24 17:28:20 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/js/shCore.js"):
+  
+Started GET "/js/shBrushCpp.js" for ::1 at 2021-12-24 17:28:20 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/js/shBrushCpp.js"):
+  
+Started GET "/" for ::1 at 2021-12-24 17:28:38 -0800
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.1ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:7
+  Rendered entries/index.html.erb within layouts/application (Duration: 34.1ms | Allocations: 1399)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 0.9ms | Allocations: 283)
+  Rendered layout layouts/application.html.erb (Duration: 50.0ms | Allocations: 5912)
+Completed 200 OK in 54ms (Views: 52.3ms | ActiveRecord: 0.1ms | Allocations: 7274)
+
+
+Started GET "/css/shCore.css" for ::1 at 2021-12-24 17:28:38 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/css/shCore.css"):
+  
+Started GET "/requestProvider.js.map" for ::1 at 2021-12-24 17:28:38 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/requestProvider.js.map"):
+  
+Started GET "/css/shThemeDefault.css" for ::1 at 2021-12-24 17:28:38 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/css/shThemeDefault.css"):
+  
+Started GET "/js/shCore.js" for ::1 at 2021-12-24 17:28:38 -0800
+Started GET "/css/shCore.css" for ::1 at 2021-12-24 17:28:38 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/js/shCore.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/css/shCore.css"):
+  
+Started GET "/js/shBrushCpp.js" for ::1 at 2021-12-24 17:28:39 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/js/shBrushCpp.js"):
+  
+Started GET "/css/shThemeDefault.css" for ::1 at 2021-12-24 17:28:39 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/css/shThemeDefault.css"):
+  
+Started GET "/js/shCore.js" for ::1 at 2021-12-24 17:28:39 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/js/shCore.js"):
+  
+Started GET "/js/shBrushCpp.js" for ::1 at 2021-12-24 17:28:39 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/js/shBrushCpp.js"):
+  
+Started GET "/" for ::1 at 2021-12-24 17:29:06 -0800
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.2ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:7
+  Rendered entries/index.html.erb within layouts/application (Duration: 5.0ms | Allocations: 1400)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 1.1ms | Allocations: 283)
+  Rendered layout layouts/application.html.erb (Duration: 22.7ms | Allocations: 5908)
+Completed 200 OK in 28ms (Views: 25.6ms | ActiveRecord: 0.2ms | Allocations: 7269)
+
+
+Started GET "/requestProvider.js.map" for ::1 at 2021-12-24 17:29:07 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/requestProvider.js.map"):
+  
+Started GET "/css/shCore.css" for ::1 at 2021-12-24 17:29:07 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/css/shCore.css"):
+  
+Started GET "/css/shThemeDefault.css" for ::1 at 2021-12-24 17:29:07 -0800
+Started GET "/js/shCore.js" for ::1 at 2021-12-24 17:29:07 -0800
+Started GET "/js/shBrushCpp.js" for ::1 at 2021-12-24 17:29:07 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/js/shCore.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/css/shThemeDefault.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/js/shBrushCpp.js"):
+  
+Started GET "/css/shThemeDefault.css" for ::1 at 2021-12-24 17:29:07 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/css/shThemeDefault.css"):
+  
+Started GET "/js/shCore.js" for ::1 at 2021-12-24 17:29:07 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/js/shCore.js"):
+  
+Started GET "/js/shBrushCpp.js" for ::1 at 2021-12-24 17:29:07 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/js/shBrushCpp.js"):
+  
+Started GET "/" for ::1 at 2021-12-24 17:30:09 -0800
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.2ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:7
+  Rendered entries/index.html.erb within layouts/application (Duration: 4.3ms | Allocations: 1396)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 1.2ms | Allocations: 283)
+  Rendered layout layouts/application.html.erb (Duration: 21.7ms | Allocations: 5904)
+Completed 200 OK in 27ms (Views: 25.5ms | ActiveRecord: 0.2ms | Allocations: 7265)
+
+
+Started GET "/requestProvider.js.map" for ::1 at 2021-12-24 17:30:09 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/requestProvider.js.map"):
+  
+Started GET "/css/shCore.css" for ::1 at 2021-12-24 17:30:09 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/css/shCore.css"):
+  
+Started GET "/js/shCore.js" for ::1 at 2021-12-24 17:30:09 -0800
+Started GET "/js/shBrushCpp.js" for ::1 at 2021-12-24 17:30:09 -0800
+Started GET "/css/shThemeDefault.css" for ::1 at 2021-12-24 17:30:09 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/js/shBrushCpp.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/js/shCore.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/css/shThemeDefault.css"):
+  
+Started GET "/js/shCore.js" for ::1 at 2021-12-24 17:30:10 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/js/shCore.js"):
+  
+Started GET "/js/shBrushCpp.js" for ::1 at 2021-12-24 17:30:10 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/js/shBrushCpp.js"):
+  
+Started GET "/" for ::1 at 2021-12-24 17:30:20 -0800
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.2ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:7
+  Rendered entries/index.html.erb within layouts/application (Duration: 5.2ms | Allocations: 1369)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 1.0ms | Allocations: 283)
+  Rendered layout layouts/application.html.erb (Duration: 21.2ms | Allocations: 5877)
+Completed 200 OK in 24ms (Views: 23.0ms | ActiveRecord: 0.2ms | Allocations: 7239)
+
+
+Started GET "/requestProvider.js.map" for ::1 at 2021-12-24 17:30:21 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/requestProvider.js.map"):
+  
+Started GET "/" for ::1 at 2021-12-24 17:30:22 -0800
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (0.2ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:7
+  Rendered entries/index.html.erb within layouts/application (Duration: 3.8ms | Allocations: 806)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 0.3ms | Allocations: 67)
+  Rendered layout layouts/application.html.erb (Duration: 14.9ms | Allocations: 4425)
+Completed 200 OK in 17ms (Views: 15.7ms | ActiveRecord: 0.2ms | Allocations: 4908)
+
+
+Started GET "/requestProvider.js.map" for ::1 at 2021-12-24 17:30:23 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/requestProvider.js.map"):
+  
+Started GET "/%22" for ::1 at 2021-12-28 15:21:22 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/%22"):
+  
+Started GET "/" for ::1 at 2021-12-28 15:21:45 -0800
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[35m (2.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/views/entries/index.html.erb:7
+  [1m[36mEntry Load (1.0ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:7
+  Rendered entries/index.html.erb within layouts/application (Duration: 229.2ms | Allocations: 1563)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 1.8ms | Allocations: 67)
+  Rendered layout layouts/application.html.erb (Duration: 541.6ms | Allocations: 5223)
+Completed 200 OK in 641ms (Views: 566.0ms | ActiveRecord: 31.5ms | Allocations: 5629)
+
+
+Started GET "/" for ::1 at 2021-12-28 21:44:37 -0800
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/views/entries/index.html.erb:7
+  [1m[36mEntry Load (0.9ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:7
+  Rendered entries/index.html.erb within layouts/application (Duration: 396.9ms | Allocations: 2128)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 5.9ms | Allocations: 284)
+  Rendered layout layouts/application.html.erb (Duration: 780.9ms | Allocations: 6638)
+Completed 200 OK in 1225ms (Views: 1004.0ms | ActiveRecord: 15.1ms | Allocations: 7974)
+
+
+Started GET "/" for ::1 at 2021-12-28 21:45:53 -0800
+Processing by EntriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering entries/index.html.erb within layouts/application
+  [1m[36mEntry Load (5.1ms)[0m  [1m[34mSELECT "entries".* FROM "entries"[0m
+  ↳ app/views/entries/index.html.erb:7
+  Rendered entries/index.html.erb within layouts/application (Duration: 64.1ms | Allocations: 1371)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_header.html.erb (Duration: 2.6ms | Allocations: 283)
+  Rendered layout layouts/application.html.erb (Duration: 140.3ms | Allocations: 5877)
+Completed 200 OK in 202ms (Views: 176.3ms | ActiveRecord: 5.1ms | Allocations: 7280)
+
+
