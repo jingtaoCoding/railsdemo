@@ -3,20 +3,28 @@
     <nav class="navbar">
       <div class="container">
         <div class="navbar-brand">
-          <a class="navbar-item">
-            <img src="https://bulma.io/images/bulma-type-white.png" alt="Logo">
-          </a>
-          <span class="navbar-burger" data-target="navbarMenuHeroB">
+          <%= link_to root_path, class: "navbar-item" do %>
+            <svg fill="#ffffff" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+            <title>transactions</title>
+            <circle cx="16" cy="4" r="3"></circle><circle cx="4.309" cy="24.25" r="3"></circle><circle cx="27.691" cy="24.25" r="3" stroke="#212121"></circle>
+            <path d="M9.251,5.829A13.487,13.487,0,0,0,3.108,21.517"></path><path d="M25.91,26.645A13.447,13.447,0,0,1,9.263,29.189" stroke="#212121"></path><path d="M29.5,17.5A13.5,13.5,0,0,0,18.966,4.337"></path>
+            </svg>
+            <span class="has-text-weight-bold is-size-4 ml-4"> Foodlog </span>
+          <% end %>
+          <span class="navbar-burger burger" data-target="navbarMenuHeroA">
             <span></span>
             <span></span>
             <span></span>
           </span>
         </div>
-        <div id="navbarMenuHeroB" class="navbar-menu">
-          <div class="navbar-end">
-            <%= link_to "create new entry", new_entry_path, class: "button is-success" %>
+        <div id="navbarMenuHeroA" class="navbar-menu">
+          <div class="navbar-start">
+            <span class="navbar-item">
+              <%= link_to "create new entry", new_entry_path, class: "button is-success" %>
+            </span>
           </div>
         </div>
+        
       </div>
     </nav>
   </div>

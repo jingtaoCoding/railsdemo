@@ -1,29 +1,45 @@
-<p id="notice"><%= notice %></p>
+<%= params %>
 
-<p>
-  <strong>Meal type:</strong>
-  <%= @entry.meal_type %>
-</p>
+<%= content_for :title do  %>
+  <%= @entry.meal_type %> &ndash; <%= DateTime.now.to_s(:nice_date) %>
+<% end %>
 
-<p>
-  <strong>Calories:</strong>
-  <%= @entry.calories %>
-</p>
+<div class="columns mt-6 is-centered">
+  <div class="column is-one-third">
+    <nav class="panel is-link">
+      <p class="panel-heading">
+        <%= @entry.meal_type %>
+      </p>
 
-<p>
-  <strong>Protiens:</strong>
-  <%= @entry.protiens %>
-</p>
+      <div class="panel-block">
+          Calories: <%= @entry.calories %>
+      </div>
 
-<p>
-  <strong>Carbohydrates:</strong>
-  <%= @entry.carbohydrates %>
-</p>
+      <div class="panel-block">
+          Protiens: <%= @entry.protiens %>
+      </div>
 
-<p>
-  <strong>Fats:</strong>
-  <%= @entry.fats %>
-</p>
+      <div class="panel-block">
+          Carbohydrates: <%= @entry.carbohydrates %>
+      </div>
+      
+      <div class="panel-block">
+          Fats: <%= @entry.fats %>
+      </div>
+    </nav>
+  </div>
 
-<%= link_to 'Edit', edit_entry_path(@entry) %> |
-<%= link_to 'Back', entries_path %>
+
+  <div class="columns is-mobile">
+    <div class="column is-one-third">
+      <%= link_to 'Edit', edit_entry_path(@entry), class: "button is-grey" %> 
+      <%= link_to 'Delete', 
+          entries_path(@entry), 
+          method: :delete, 
+          data: {confirm: "Are you sure?"}, class: "button is-grey" 
+      %> 
+    </div>
+  </div>
+
+</div>
+
